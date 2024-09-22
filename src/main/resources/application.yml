@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: Api Module
+
+app:
+  urls:
+    core: http://localhost:8081
+    ticket: http://localhost:8082

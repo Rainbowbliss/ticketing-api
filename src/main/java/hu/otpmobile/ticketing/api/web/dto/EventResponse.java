@@ -1,11 +1,14 @@
 package hu.otpmobile.ticketing.api.web.dto;
 
 import lombok.Data;
-import java.util.List;
+import java.time.LocalDateTime;
 
 @Data
 public class EventResponse {
 
   private Long eventId;
-  private List<SeatResponse> seats;
+  private String title;
+  private String location;
+  private LocalDateTime startTimeStamp;
+  private LocalDateTime endTimeStamp;
 }
